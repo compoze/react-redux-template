@@ -4,11 +4,18 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 
 function App() {
+  const environment = process.env.REACT_APP_ENVIRONMENT
+  console.log(environment);
+  console.log(process.env.NODE_ENV);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <p>
+          Environment: {environment}
+        </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
