@@ -1,6 +1,6 @@
 # myapp
 
-This is the central portal application for the MVMNT platform. It is currently deployed via the [AWS Amplify Service](https://aws.amazon.com/amplify/). 
+This is the a portal for myapp. It is deployed via the [AWS Amplify Service](https://aws.amazon.com/amplify/). 
 
 ## Deployment
 
