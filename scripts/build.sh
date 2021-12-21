@@ -7,7 +7,7 @@ ENVIRONMENTS_DIR="${PROJECT_DIR}/environments"
 
 ENVIRONMENT=$1
 
-ENV_FILE=./environments/.$ENVIRONMENT.env
+ENV_FILE=./environments/$ENVIRONMENT.env
 
 if [ -f "$ENV_FILE" ]; then
     echo "Building for $ENVIRONMENT"
