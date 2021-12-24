@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "env-cmd -f ./environments/dev.env react-scripts start",
+    "start": "env-cmd -f ./environments/local.env react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:environment": "./scripts/build.sh",
